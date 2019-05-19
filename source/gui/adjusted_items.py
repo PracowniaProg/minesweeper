@@ -11,8 +11,8 @@ from PyQt5.QtCore import pyqtSignal, Qt
 from PyQt5.QtGui import QFont, QPixmap, QIcon
 from PyQt5.QtWidgets import QSizePolicy, QPushButton, QLabel, QSpinBox
 
-import settings
-from gui.helpers import prepare_icon, AdjustItems
+from source import settings
+from source.gui.helpers import prepare_icon, AdjustItems
 
 
 class StartSceneButton(QPushButton, AdjustItems):

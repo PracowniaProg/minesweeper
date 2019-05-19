@@ -1,4 +1,4 @@
-from settings import VALUES_OF_BOARD_FIELDS
+from source.settings import VALUES_OF_BOARD_FIELDS
 
 
 class InitialValuesOfField:
