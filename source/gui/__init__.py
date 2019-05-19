@@ -3,13 +3,13 @@ from functools import partial
 from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget, QLabel, QWIDGETSIZE_MAX
 from PyQt5 import QtCore
 
-from gui.helpers import prepare_icon, AdjustItems
+from source.gui.helpers import prepare_icon, AdjustItems
 
-import settings
-from board.board_generator import generate_board
-from gui.adjusted_items import StartSceneButton, LogoLabel, SizeLabel, SizeSpinBox, GameButton
-from gui.helpers import remove_all_widgets
-from gui.revealing_fields import RevealFields
+from source import settings
+from source.board.board_generator import generate_board
+from source.gui.adjusted_items import StartSceneButton, LogoLabel, SizeLabel, SizeSpinBox, GameButton
+from source.gui.helpers import remove_all_widgets
+from source.gui.revealing_fields import RevealFields
 
 
 class MainWidget(QWidget, RevealFields):

@@ -1,6 +1,6 @@
 from random import choice
-from settings import VALUES_OF_BOARD_FIELDS
-from board.helpers import InitialValuesOfField
+from source.settings import VALUES_OF_BOARD_FIELDS
+from source.board.helpers import InitialValuesOfField
 
 
 def pos_correct(height, width, x, y):
