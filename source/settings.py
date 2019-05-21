@@ -8,7 +8,7 @@ TEXT_ON_BUTTONS = {
 
 MAIN_WINDOW_STYLES = "background-color: #BDBDBD;"
 MIN_WIDTH_OF_VERTICAL_LAYOUT = "min-width: 300px;"
-START_LOGO_IMAGE = "assets/sapper.png"
+START_LOGO_IMAGE = "source/assets/sapper.png"
 START_LOGO_IMAGE_STYLES = MIN_WIDTH_OF_VERTICAL_LAYOUT + \
                           "border-image: url(" + START_LOGO_IMAGE + ") 1 1 1 1 stretch stretch;" + \
                           "border-width: auto;"
@@ -56,13 +56,13 @@ MINIMUM_WIDTH_OF_LAYOUT = 300
 MINIMUM_HEIGHT_OF_THE_WHOLE_APPLICATION = 350
 
 IMAGES_WITH_THE_ICONS_OF_FIELDS = {
-    "FIELD_WITH_BOMB": "assets/bomb.png",
-    "EMPTY_FIELD": "assets/empty_field.png",
-    "NOT_REVEALED":  "assets/not_revealed.png",
-    "FLAGGED": "assets/flag.png"
+    "FIELD_WITH_BOMB": "source/assets/bomb.png",
+    "EMPTY_FIELD": "source/assets/empty_field.png",
+    "NOT_REVEALED":  "source/assets/not_revealed.png",
+    "FLAGGED": "source/assets/flag.png"
 }
 SETTINGS_OF_FIELDS_WITH_VALUES = {
-    "PATH_TO_ICONS": "assets/numbers/",
+    "PATH_TO_ICONS": "source/assets/numbers/",
     "ICON_FILE_FORMAT": "png"
 }
 

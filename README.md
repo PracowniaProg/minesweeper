@@ -46,4 +46,4 @@ Just type the following command at the prompt:
 Now run our game:\
 Type the following command at the prompt:
 
-**python source/main.py**
+**python main.py**
